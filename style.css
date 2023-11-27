@@ -1,0 +1,91 @@
+/* Estilos Index */
+@font-face {
+    font-family: "Sublima-Bold-Italic";
+    src: url("fuentes/Sublima-ExtraBoldItalic.otf");
+}
+@font-face {
+    font-family: "Sublima-Italic";
+    src: url("fuentes/Sublima-ExtraLightItalic.otf");
+}
+/* Estilos body */
+body{
+    margin: 0;
+    /* background-image: url(pics/bgIndex.jpg); */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+/* Fin estilos body */
+
+/* Estilo Header */
+#headerIndex{
+    background-color: blueviolet;
+    width: 100%;
+    display: flex;
+}
+#menuHeader{
+    width: 30%;
+    float: left;
+    font-family: Sublima-Bold-Italic;
+}
+header > h1{
+    display: flex;
+    width: 36.6%;
+    justify-content: center;
+    font-family: Sublima-Bold-Italic;
+}
+.infoBox{
+    width: 33.3%;
+}
+.infoHeaderSection{
+    width: 51px;
+    height: 51px;
+    float: right;
+}
+.infoHeaderSection:hover{
+    cursor: pointer;
+}
+/* Estilo Menu Flotante */
+.listaHeader > ul{
+    display: none;
+}
+.listaHeader > ul > li{
+    display: none;
+}
+.listaHeader:hover{
+    cursor: pointer;
+}
+.listaHeader:hover > ul {
+    display:block;
+    position: absolute;
+    background-color: blueviolet;
+}
+.listaHeader:hover > ul > li{
+    display:flex;
+    /* position: absolute; */
+}
+/* Fin Estilos Header */
+
+/* Estilos Main */
+main{
+    text-align: center;
+    font-family: Sublima-Bold-Italic;
+}
+.eslogan > h2{
+}
+
+
+/* Fins estilos Main */
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------- */
+/* Estilos Hoteles */
+
+/* Estilo Header */
