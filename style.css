@@ -7,15 +7,17 @@
     font-family: "Sublima-Italic";
     src: url("fuentes/Sublima-ExtraLightItalic.otf");
 }
+@font-face {
+    font-family: "Sublima-Bold";
+    src: url("fuentes/Sublima-ExtraBold.otf");
+}
 /* Estilos body */
 body{
     margin: 0;
-    /* background-image: url(pics/bgIndex.jpg); */
-    /* font-family: Arial, Helvetica, sans-serif; */
 }
 a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 /* Fin estilos body */
 
@@ -24,56 +26,36 @@ a{
     background-color: red;
     width: 100%;
     display: flex;
-}
-#menuHeader{
-    width: 30%;
-    float: left;
-    font-family: Sublima-Bold-Italic;
+    justify-content: space-between;
 }
 header > h1{
-    display: flex;
-    width: 36.6%;
-    justify-content: center;
+    margin-left: 10px;
     font-family: Sublima-Bold-Italic;
 }
-.infoBox{
-    width: 33.3%;
+header > h2{
+    font-family: Sublima-Bold;
 }
 .infoHeaderSection{
+    margin-top: 10px;
+    margin-right: 10px;
     width: 51px;
     height: 51px;
-    float: right;
 }
 .infoHeaderSection:hover{
     cursor: pointer;
-}
-/* Estilo Menu Flotante */
-.listaHeader > ul{
-    display: none;
-}
-.listaHeader > ul > li{
-    display: none;
-}
-.listaHeader:hover{
-    cursor: pointer;
-}
-.listaHeader:hover > ul {
-    display:block;
-    /* position: absolute; */
-    /* background-color: red; */
-}
-.listaHeader:hover > ul > li{
-    display:flex;
-    /* position: absolute; */
 }
 /* Fin Estilos Header */
 
 /* Estilos Main */
 main{
-    /* text-align: center; */
     font-family: Sublima-Bold-Italic;
 }
-
+.opcion{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
 /* Fins estilos Main */
 
 
