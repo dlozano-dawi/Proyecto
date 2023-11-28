@@ -1,0 +1,7 @@
+main{
+    display: flex;
+}
+nav{
+    background-color: red;
+    width: 15%;
+}

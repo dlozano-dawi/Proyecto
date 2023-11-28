@@ -22,11 +22,15 @@ a{
 /* Fin estilos body */
 
 /* Estilo Header */
-#headerIndex{
+.headers{
     background-color: red;
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+header > a{
+    margin-left:10px ;
+    font-family: Sublima-Bold-Italic;
 }
 header > h1{
     margin-left: 10px;
@@ -49,12 +53,24 @@ header > h2{
 /* Estilos Main */
 main{
     font-family: Sublima-Bold-Italic;
+    padding: 1%;
 }
 .opcion{
+    border-radius: 10px;
+    padding: 1%;
     width: 90%;
     display: flex;
     justify-content: space-between;
     margin: 1%;
+}
+.opcion:hover{
+    background-color: red;
+}
+.opcion:hover >  a{
+    color: white;
+}
+.opcion:hover{
+    color: white;
 }
 /* Fins estilos Main */
 

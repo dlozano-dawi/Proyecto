@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="headers">
+        <a href="index.html"><h1>BALEARES</h1></a>
+        <h2>ALOJAMIENTO TURISTICO EN BALEARES</h2>
+        <div class="infoBox">
+            <a href="https://www.caib.es/govern/index.do?lang=es"><img class="infoHeaderSection" src="pics/info.png" alt=""></a>
+        </div>
+    </header>
+    <main>
+        <h1>INICIO DE SESIÓN</h1>
+        <form action="index.html" method="get">
+            <label for="name">Nombre:</label>
+            <input id="name" name="name" type="text" placeholder="Nombre" required>* <br>
+            <label for="lastname">Apellidos:</label>
+            <input id="lastname" name="lastname" type="text" placeholder="Apellido 1" required>*
+            <input type="text" placeholder="Apellido 2">
+            <br>
+            <label for="tel">Télefono:</label>
+            <input name="tel" id="tel" type="tel" placeholder="Numero de telefono" required>*
+            <label for="dir">Dirección:</label>
+            <input name="dir" id="dir" type="text" placeholder="C/Niceto Alcalá Zamora" required>*
+            <br> 
+            <br>
+            <hr>
+            <input type="submit">
+            <input type="reset">
+        </form>
+    </main>
+</body>
+</html>
